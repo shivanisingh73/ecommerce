@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Shoply</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css">
+    <script src="main.js"></script>
+</head>
+
+<body>
+    <div class="wholediv">
+        <!--open div for whole page-->
+        <div class="header">
+            <!--open div for header-->
+            <img src="/home/shivani/Pictures/logo.png" alt="Logo not Available" class="logo">
+            <p>Shoply</p>
+            <div class="menu">
+                <!--open div for menu items-->
+                <button>New</button>
+                <button>Men</button>
+                <button>Women</button>
+                <button>Home</button>
+                <button>Stores</button>
+                <button>Travel</button>
+                <button>Gift Shop</button>
+                <button>Journal</button>
+            </div>
+            <!--close div for menu-->
+        </div>
+        <!--close div for header-->
+        <div class="heroImage">
+            <!--open div for heroImage-->
+            <img src="/home/shivani/Pictures/heroImage.jpg" alt="hero Image not available" height="100%" width="100%">
+        </div>
+        <!--close div for heroImage-->
+        <div class="content">
+            <!--open div for content-->
+            <div class="tshirtContent">
+                <!--open div for tshirtContent-->
+                <div class="firstTshirt">
+                    <!--open div for 1st image-->
+                    <img src="/home/shivani/Pictures/tshirt.jpeg" alt="tshirt image not available" width="300px"
+                        height="300px">
+                </div>
+                <!--close div for 1st image-->
+                <div class="secondTshirt">
+                    <!--open div for 2nd image-->
+                    <img src="/home/shivani/Pictures/tshirt.jpeg" alt="tshirt image not available" width="300px"
+                        height="300px">
+                </div>
+                <!--close div for 2nd image-->
+                <div class="thirdTshirt">
+                    <!--open div for 3rd image-->
+                    <img src="/home/shivani/Pictures/tshirt.jpeg" alt="tshirt image not available" width="300px"
+                        height="300px">
+                </div>
+                <!--close div for 3rd image-->
+                <div class="firstTshirt">
+                    <!--open div for 4th image-->
+                    <img src="/home/shivani/Pictures/tshirt.jpeg" alt="tshirt image not available" width="300px"
+                        height="300px">
+                </div>
+                <!--close div for 4th image-->
+                <div class="secondTshirt">
+                    <!--open div for 5th image-->
+                    <img src="/home/shivani/Pictures/tshirt.jpeg" alt="tshirt image not available" width="300px"
+                        height="300px">
+                </div>
+                <!--close div for 5th image-->
+                <div class="thirdTshirt">
+                    <!--open div for 6th image-->
+                    <img src="/home/shivani/Pictures/tshirt.jpeg" alt="tshirt image not available" width="300px"
+                        height="300px">
+                </div>
+                <!--close div for 6th image-->
+                <div class="firstTshirt">
+                    <!--open div for 7th image-->
+                    <img src="/home/shivani/Pictures/tshirt.jpeg" alt="tshirt image not available" width="300px"
+                        height="300px">
+                </div>
+                <!--close div for 7th image-->
+                <div class="secondTshirt">
+                    <!--open div for 8th image-->
+                    <img src="/home/shivani/Pictures/tshirt.jpeg" alt="tshirt image not available" width="300px"
+                        height="300px">
+                </div>
+                <!--close div for 8th image-->
+                <div class="thirdTshirt">
+                    <!--open div for 9th image-->
+                    <img src="/home/shivani/Pictures/tshirt.jpeg" alt="tshirt image not available" width="300px"
+                        height="300px">
+                </div>
+                <!--close div for 9th image-->
+            </div>
+            <!--close div for tshirtContent-->
+            <div class="categories">
+                <!--open div for categories-->
+                <ul>-Colections
+                    <hr>
+                    <li>
+                        All Women
+                    </li>
+                    <li>
+                        Bottoms
+                    </li>
+                    <li>
+                        Dresses
+                    </li>
+                    <li>
+                        Tops
+                    </li>
+                    <li>
+                        kurtas
+                    </li>
+                    <li>
+                        tunics
+                    </li>
+                </ul>
+                <ul>
+                    +Price
+                    <hr>
+                </ul>
+                <ul>
+                    +Size
+                    <hr>
+                </ul>
+                <ul>
+                    +Color
+                    <hr>
+                </ul>
+            </div>
+            <!--close div for categories-->
+        </div>
+        <!--close div for content-->
+    </div>
+</body>
+
+</html>
+<style>
+    .wholediv {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        justify-content: flex-start;
+        align-items: stretch;
+        align-content: stretch;
+    }
+
+    .header {
+        position: fixed;
+        top: 0;
+        background: cornflowerblue;
+        height: 100px;
+        width: 100%;
+        z-index: 1;
+    }
+
+    .logo {
+        position: absolute;
+        top: 0;
+        right: 0;
+        height: 70px;
+        width: 70px;
+    }
+
+    .heroImage {
+        width: 100%;
+        height: 25%;
+    }
+
+    button {
+        position: relative;
+        left: 10px;
+        border: none;
+        padding: 10px;
+        cursor: pointer;
+        font-size: 10px;
+        width: 80px;
+    }
+
+    .content {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        align-items: stretch;
+        align-content: stretch;
+    }
+
+    .tshirtContent {
+        display: flex;
+        flex-wrap: wrap;
+        background: aqua;
+        width: 75%;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: stretch;
+        align-content: stretch;
+    }
+
+    .categories {
+        background: brown;
+        width: 25%;
+        height: 100%;
+    }
+
+    .firstTshirt {
+        padding: 10px;
+    }
+
+    .secondTshirt {
+        padding: 10px;
+    }
+
+    .thirdTshirt {
+        padding: 10px;
+    }
+</style>
